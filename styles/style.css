@@ -1,0 +1,41 @@
+*{
+    margin: 0px;   padding: 0px;
+}
+
+
+/* header section */
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+}
+.menus{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    color: rgb(183, 123, 133);
+}
+.btn-primary{
+    background-color: rgb(204, 147, 147);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+.logo{
+    width: auto;
+    height: 10px;
+
+}
+.item{
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.item:hover{
+    color: brown;
+}
