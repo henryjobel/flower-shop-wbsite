@@ -1,7 +1,9 @@
 *{
     margin: 0px;   padding: 0px;
 }
-
+span{
+    color: red;
+}
 
 /* header section */
 .menu-container{
@@ -41,6 +43,9 @@
     color: brown;
 }
 
+
+/* banner container */
+
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -59,9 +64,12 @@
     justify-content: center;
     align-items: center;
     margin: 100px;
-    padding: 150px;
+    padding: 150px; 
     font-size: 30px;
 }
+
+/* featured Container */
+
 .feature-info{
     text-align: center;
     padding: 80px;
@@ -128,4 +136,46 @@
     font-size: 20px;
     padding: 30px;
 
+}
+
+
+
+/* deal container */
+
+.deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);  
+    width: 1922px;
+    height: 620px;
+}
+
+.deal-container{
+    margin-top: 200px;
+}
+.deal-des{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 15px;
+    width: 700px;
+
+}
+.deal-title{
+    text-align: center;
+    font-size: 30px;
+}
+.deal-btn{
+    
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    display: inline-flex;
+
+}
+.bt{
+    margin: -250px 500px ;
 }
