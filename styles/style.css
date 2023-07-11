@@ -9,6 +9,7 @@
     justify-content: space-around;
     padding: 10px;
     list-style: none;
+    background: rgba(229, 84, 115, 0.10);
 }
 .menus{
     display: flex;
@@ -38,4 +39,26 @@
 }
 .item:hover{
     color: brown;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.banner-img{
+    width: 635px;
+    height: 800px;
+    margin-left: 20px;
+}
+
+.banner-info{
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 150px;
+    font-size: 30px;
 }
